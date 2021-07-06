@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "minitest-test-runtimes"
-  spec.version       = "0.1.1"
+  spec.version       = "0.1.2"
   spec.authors       = ["Thomas Cannon"]
   spec.email         = ["hello@thomascannon.me"]
 
