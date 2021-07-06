@@ -56,7 +56,7 @@ module Minitest
         result.name,
         result.time * 1_000,
         test_status(result: result),
-        result.klass,
+        result.klass rescue result.class.to_s,
         result.source_location.first,
         result.source_location.join(":")
       ]
